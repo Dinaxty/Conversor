@@ -8,7 +8,7 @@ public class Ej2 {
     
      Scanner lector = new Scanner (System.in);
 
-public Ej2() {
+public void conversor() {
 
     float Pesetas, cPesetas;
     final float cEuros;
@@ -22,9 +22,10 @@ public Ej2() {
 }
     public static void main(String[] args) {
        
-            Ej2 solucion = new Ej2();
+            Ej2 solucion;
+            solucion=new Ej2();
 
-
+            solucion.conversor();
     }
     
 }
