@@ -22,9 +22,12 @@ public void conversor() {
 }
     public static void main(String[] args) {
        
+           //prueba de cambio
+    	 System.out.println("EDE"); 
+    	//Iniciar el codigo 
             Ej2 solucion;
             solucion=new Ej2();
-
+          
             solucion.conversor();
     }
     
